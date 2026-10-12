@@ -16,7 +16,7 @@ wrapper {
     width: 1000px;
     display: block;
     margin: auto;
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(248, 204, 96, 0.85);
 	box-shadow: 0 0 20px black;
 }
 h1 {
@@ -41,12 +41,21 @@ header {
     grid-template-columns: 25% 75%;
     gap: 16px;
 }
+.my-box{
+	width: 180px;
+	height: 700px;
+	background-color: rgba(255, 255, 255, 0.4);
+  	border: 2px solid #333333;
+	padding: 20px;
+	margin: 0px;
+	}
 	li{
 		margin-bottom: 8px;
 		margin-right: 8px;
 	}
 	main,footer{
 		padding: 20px;
+		border-radius: 8px;
 	}
 </style>
 </head>
@@ -56,10 +65,13 @@ header {
   <header> <img src="chef.jpg" class="logo" />
     <h1>Honey &amp; Dough&trade;</h1>
   </header>
-  <main> <img src="cinnamonrolls.jpg" class="banner" />
-    <h2>BEST Homemade Cinnamon Rolls</h2>
+	<header>
+	<img src="cinnamonrolls.jpg" class="banner" /></header>
+  <main> 
+	  <h2>BEST Homemade Cinnamon Rolls</h2>
     <p>Homemade cinnamon rolls have always been a cherished tradition in my family. No major holiday feels complete without a fresh batch baking in the oven, filling the house with their warm, comforting aroma. Inspired by those special memories, I wanted to create a cinnamon roll recipe that is both easy to make and worthy of any celebration.</p>
     <div class="container">
+		<div class="my-box">
       <section>
         <h3>Ingredients</h3>
         <h4>Dough</h4>
@@ -86,6 +98,7 @@ header {
           <li>2 tsp vanilla extract</li>
         </ul>
       </section>
+		</div>
       <section>
         <h3>Instructions</h3>
         <h4>Cinnamon Roll Dough</h4>
